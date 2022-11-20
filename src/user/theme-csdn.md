@@ -1,11 +1,17 @@
+<script setup>
+import Screenshot from '../components/Screenshot.vue'
+</script>
+
 # csdn
 
-<Screenshot 
-    desktop="待上传..."
-    pad="待上传..."
-    phone="待上传..."
-/>
 
+<ClientOnly>
+  <Screenshot 
+      desktop="待上传..."
+      pad="待上传..."
+      phone="待上传..."
+  />
+</ClientOnly>
 
 ## 介绍
 

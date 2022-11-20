@@ -1,10 +1,16 @@
-# simple
+<script setup>
+import Screenshot from '../components/Screenshot.vue'
+</script>
 
-<Screenshot 
-    desktop="待上传..."
-    pad="待上传..."
-    phone="待上传..."
-/>
+# view
+
+<ClientOnly>
+  <Screenshot 
+      desktop="待上传..."
+      pad="待上传..."
+      phone="待上传..."
+  />
+</ClientOnly>
 
 ## 介绍
 
@@ -20,7 +26,6 @@
 - 代码高亮
 - 代码行号
 - 图片灯箱
-- 打赏二维码
 - 表情输入
 - 音乐播放器
 - 随笔签名
@@ -33,7 +38,7 @@
 ```js
 const opts = {
   theme: {
-    name: 'simple',
+    name: 'view',
   },
 }
 ```

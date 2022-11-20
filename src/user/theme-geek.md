@@ -1,11 +1,24 @@
+
+<script setup>
+import d from '/theme-screenshots/geek-desktop-dark.png'
+
+const screenshots = {
+  desktop: {light: '待上传...', dark: d},
+  pad: "待上传...",
+  phone:  "待上传...",
+}
+</script>
+
 # geek
 
 <Screenshot 
-    :desktop="{light: '待上传...',dark: '/theme-screenshots/geek-desktop-dark.png'}"
-    :pad="{light: '待上传...',dark: '/theme-screenshots/geek-pad-dark.png'}"
-    :phone="{light: '待上传...',dark: '/theme-screenshots/geek-phone-dark.png'}"
+    :desktop="screenshots.desktop"
+    :pad="screenshots.pad"
+    :phone="screenshots.phone"
 />
 
+<!-- {light: '待上传...', dark: '/theme-screenshots/geek-pad-dark.png'}
+{light: '待上传...', dark: '/theme-screenshots/geek-phone-dark.png'} -->
 ## 介绍
 
 - 👔 作者：[guangzan](https://www.cnblogs.com/guangzan/)

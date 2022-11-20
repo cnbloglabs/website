@@ -4,15 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src"
   },
   "dependencies": {
-    "@iconify-json/carbon": "^1.1.10",
     "@algolia/client-search": "^4.14.2",
+    "@iconify-json/carbon": "^1.1.10",
     "canvas-confetti": "^1.6.0",
-    "vitepress": "1.0.0-alpha.29",
+    "vitepress": "^1.0.0-alpha.29",
     "vue": "^3.2.45"
   },
   "devDependencies": {
