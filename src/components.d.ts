@@ -7,9 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Avatar: typeof import('./.vitepress/components/Avatar.vue')['default']
     Confetti: typeof import('./.vitepress/components/Confetti.vue')['default']
-    Contributors: typeof import('./.vitepress/components/Contributors.vue')['default']
     Guide: typeof import('./.vitepress/components/Guide.vue')['default']
     Home: typeof import('./.vitepress/components/Home.vue')['default']
     Screenshot: typeof import('./.vitepress/components/Screenshot.vue')['default']
