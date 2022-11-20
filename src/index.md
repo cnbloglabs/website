@@ -26,6 +26,6 @@ features:
     details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
   - title: 构建有质量保证的皮肤
     details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
-  - title: ❤️ 用爱发电
+  - title: WIP
     details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
 ---

@@ -1,18 +1,22 @@
 <script setup>
-import desktopLight from './theme-screenshots/reacg-desktop-light.png'
-import padDark from './theme-screenshots/reacg-pad-dark.png'
-import phoneDark from './theme-screenshots/reacg-phone-dark.png'
+import lightDesktop from '/theme-screenshots/reacg-desktop-light.png'
+import darkPad from '/theme-screenshots/reacg-pad-dark.png'
+import darkPhone from '/theme-screenshots/reacg-phone-dark.png'
+
+const screenshots = {
+  desktop: {light: lightDesktop, dark: '待上传...'},
+  pad: {light: "待上传...", dark: darkPad},
+  phone: {light: "待上传...", dark: darkPhone},
+}
 </script>
 
 # reacg
 
-<ClientOnly>
-  <Screenshot 
-      :desktop="{light: desktopLight, dark: '待上传...'}"
-      :pad="{light: '待上传...', dark: padDark}"
-      :phone="{light: '待上传...', dark: phoneDark}"
-  />
-</ClientOnly>
+<Screenshot 
+    :desktop="screenshots.desktop"
+    :pad="screenshots.pad"
+    :phone="screenshots.phone"
+/>
 
 ## 介绍
 

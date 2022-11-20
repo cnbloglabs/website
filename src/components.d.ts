@@ -8,7 +8,6 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Avatar: typeof import('./.vitepress/components/Avatar.vue')['default']
-    Badge: typeof import('./.vitepress/components/Badge.vue')['default']
     Confetti: typeof import('./.vitepress/components/Confetti.vue')['default']
     Contributors: typeof import('./.vitepress/components/Contributors.vue')['default']
     Guide: typeof import('./.vitepress/components/Guide.vue')['default']
@@ -22,7 +21,6 @@ declare module '@vue/runtime-core' {
     Step5: typeof import('./.vitepress/components/Step5.vue')['default']
     Step6: typeof import('./.vitepress/components/Step6.vue')['default']
     Step7: typeof import('./.vitepress/components/Step7.vue')['default']
-    Step8: typeof import('./.vitepress/components/Step8.vue')['default']
     Underline: typeof import('./.vitepress/components/Underline.vue')['default']
   }
 }

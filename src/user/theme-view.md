@@ -1,16 +1,10 @@
-<script setup>
-import Screenshot from '../components/Screenshot.vue'
-</script>
-
 # view
 
-<ClientOnly>
-  <Screenshot 
-      desktop="待上传..."
-      pad="待上传..."
-      phone="待上传..."
-  />
-</ClientOnly>
+<Screenshot 
+    desktop="待上传..."
+    pad="待上传..."
+    phone="待上传..."
+/>
 
 ## 介绍
 

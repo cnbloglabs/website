@@ -1,9 +1,9 @@
 
 <script setup>
-import d from '/theme-screenshots/geek-desktop-dark.png'
+import darkDesktop from '/theme-screenshots/geek-desktop-dark.png'
 
 const screenshots = {
-  desktop: {light: '待上传...', dark: d},
+  desktop: {light: '待上传...', dark: darkDesktop},
   pad: "待上传...",
   phone:  "待上传...",
 }

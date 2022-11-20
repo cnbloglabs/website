@@ -1,6 +1,6 @@
+import DefaultTheme from 'vitepress/theme'
 import 'uno.css'
 import './index.css'
-import DefaultTheme from 'vitepress/theme'
 
 function createDocumentFragment(template: string) {
   return document.createRange().createContextualFragment(template)

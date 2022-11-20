@@ -15,12 +15,11 @@ const options: Options = {
     '#28B5FF',
     '#2E7ACC',
   ],
-  shapes: ['square'],
-  ticks: 500,
 }
 
 function run() {
   confetti({
+    ...options,
     particleCount: 100,
     startVelocity: 30,
     spread: 360,
@@ -37,6 +36,8 @@ function run() {
   //   angle: 60,
   //   spread: 80,
   //   origin: { x: 0 },
+  //   shapes: ['square'],
+  //   ticks: 500,
   // })
 
   // setTimeout(() => {
@@ -46,6 +47,8 @@ function run() {
   //     angle: 120,
   //     spread: 80,
   //     origin: { x: 1 },
+  //     shapes: ['square'],
+  //     ticks: 500,
   //   })
   // }, 400)
 
@@ -54,6 +57,8 @@ function run() {
   //   particleCount: 80,
   //   spread: 100,
   //   origin: { y: 0 },
+  //   shapes: ['square'],
+  //   ticks: 500,
   // })
 }
 

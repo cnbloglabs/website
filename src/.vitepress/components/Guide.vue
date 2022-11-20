@@ -95,7 +95,7 @@ export default {
               </span>
             </div>
           </div>
-          <div p="x-8 b-8" class="w-[600px] overflow-auto flex-1">
+          <div class="w-[600px] overflow-auto flex-1 px-8 pb-8">
             <!-- <keep-alive> -->
             <Transition name="in">
               <component :is="currentTabContent" />

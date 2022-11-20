@@ -574,7 +574,7 @@ indexListImg: {
 }
 ```
 
-## 头部进度条 <Badge type="danger" text="caution" />
+## 头部进度条 <Badge type="danger" text="deprecated" />
 
 - 📦 依赖第三方库
 
