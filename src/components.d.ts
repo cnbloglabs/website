@@ -7,6 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AppLoadingBar: typeof import('./.vitepress/components/AppLoadingBar.vue')['default']
     Confetti: typeof import('./.vitepress/components/Confetti.vue')['default']
     Guide: typeof import('./.vitepress/components/Guide.vue')['default']
     Home: typeof import('./.vitepress/components/Home.vue')['default']

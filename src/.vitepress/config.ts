@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
 
 export default defineConfig({
-  base: '/website/',
+  // base: '/website/',
   lang: 'zh-CN',
   title: 'Cnblog Labs',
   description: 'Just playing around.',

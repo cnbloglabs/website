@@ -1,5 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
+import type { EnhanceAppContext } from 'vitepress'
+import nprogress from 'nprogress'
 import 'uno.css'
+import 'nprogress/nprogress.css'
 import './index.css'
 
 // function createDocumentFragment(template: string) {
@@ -19,7 +22,39 @@ import './index.css'
 //     ?.addEventListener('click', () => (location.href = '/'))
 // }
 
-export default Object.assign(
-  {},
-  DefaultTheme,
-)
+// export default Object.assign(
+//   {},
+//   DefaultTheme,
+//   {
+//     enhanceApp(ctx: EnhanceAppContext) {
+//       console.log(ctx)
+
+//       DefaultTheme.enhanceApp(ctx)
+//     },
+//   },
+//   {
+//     onBeforeRouteChange: () => {
+//       nprogress.start()
+//     },
+//     onAfterRouteChanged: () => {
+//       nprogress.done(true)
+//     },
+//   },
+// )
+
+export default {
+  ...DefaultTheme,
+  enhanceApp(ctx: EnhanceAppContext) {
+    console.log(ctx)
+
+    DefaultTheme.enhanceApp(ctx)
+  },
+  onBeforeRouteChange: () => {
+    console.log(1)
+
+    nprogress.start()
+  },
+  onAfterRouteChanged: () => {
+    nprogress.done(true)
+  },
+}
