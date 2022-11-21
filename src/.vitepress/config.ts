@@ -73,7 +73,7 @@ function sidebarUser(): DefaultTheme.SidebarGroup[] {
       items: [
         { text: '安装皮肤', link: '/user/install' },
         { text: '配置选项', link: '/user/options' },
-        { text: '参考写法', link: '/user/reference' },
+        { text: '参考配置', link: '/user/reference' },
         { text: '常见问题', link: '/user/questions' },
         { text: '社区 Loading', link: '/user/loadings' },
       ],
