@@ -13,10 +13,14 @@ export default defineConfig({
   head: [['meta', { name: 'theme-color', content: '#3c8772' }]],
 
   markdown: {
-    theme: {
-      light: 'github-light',
-      dark: 'github-dark',
-    },
+    theme: 'material-default',
+
+    // vitepress bug 未修复
+    // theme: {
+    //   light: 'github-light',
+    //   dark: 'github-dark',
+    // },
+
     headers: {
       level: [0, 0],
     },

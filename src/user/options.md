@@ -237,7 +237,7 @@ lock: {
 }
 ```
 
-> `<i>`是斜体【属于 HTML 标签】，`&amp;`是&【属于 HTML 转义字符】。附参考文档：[HTML 转义字符](https://tool.oschina.net/commons?type=2)&[HTML 标签](https://baike.baidu.com/item/html%E6%A0%87%E7%AD%BE)
+> `<i>`是斜体，属于 HTML 标签，`&amp;` 是&，属于 HTML 转义字符。你可以自定义任意的 HTML，都将被解析。
 
 ## Live2D 模型
 
