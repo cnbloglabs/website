@@ -29,7 +29,7 @@ export default {
     </div>
     <p>
       关于配置，我们将在
-      <a href="/cnblog/usage-options.html">配置选项</a> 中进行介绍。
+      <a href="/user/options">配置选项</a> 中进行介绍。
     </p>
   </div>
 </template>

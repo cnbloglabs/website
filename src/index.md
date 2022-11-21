@@ -14,7 +14,7 @@ hero:
       link: /user/install
     - theme: brand
       text: 构建皮肤
-      link: /dev/env
+      link: /dev/guide/env
     - theme: alt
       text: 开源仓库
       link: https://github.com/cnbloglabs

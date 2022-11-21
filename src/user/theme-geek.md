@@ -1,11 +1,14 @@
 
 <script setup>
 import darkDesktop from '/theme-screenshots/geek-desktop-dark.png'
+import darkPhone from '/theme-screenshots/geek-phone-dark.png'
+import lightDesktop from '/theme-screenshots/geek-desktop-light.png'
+import lightPhone from '/theme-screenshots/geek-phone-light.png'
 
 const screenshots = {
-  desktop: {light: '待上传...', dark: darkDesktop},
+  desktop: {light: lightDesktop, dark: darkDesktop},
   pad: "待上传...",
-  phone:  "待上传...",
+  phone:  {light: lightPhone, dark: darkPhone},
 }
 </script>
 
